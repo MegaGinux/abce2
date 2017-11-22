@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{ 
+	padding:0px;
+	margin:0px;
+	font-family: "Open Sans";
+}
+
+header{
+	width: auto;
+	height: 60px;
+	background: #49A8FA;
+	display: flex;
+}
+
+header ul{
+	display: flex;
+	list-style: none;
+}
+
+header ul li a{
+	display: block;
+	padding: 20px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header ul ul{
+	position: absolute;
+	top: 60px;
+	display: block;
+	background: #346998;
+	transform: translate(60%);
+	opacity: 0;
+	transition: all .6s
+}
+
+header ul li a span{
+	transition: all .6s	
+}
+
+header ul li a:hover span{
+	 transform: translateY(10px);
+	 opacity: 0;
+}
+
+header ul li:hover ul{
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+div#banner{
+	margin-top: 20px;
+	margin-left:10px; 
+	width:1330px;
+	height:300px;
+	border:1px solid black
+}
+
+div#body{
+	margin: auto;
+	margin-top: 60px;
+	width:1330px;
+	height:300px;
+	border:1px solid black 
+}
+
+div#izquierda{	
+	width:670px;
+	height:300px;
+	background-color:#f7f6f2;
+	float: left;
+	margin-right: 5px;
+}
+
+div#derecha{
+	width:650px; 	
+	height:300px;
+	background-color:#f7f6f2;
+	float: right;
+}
+

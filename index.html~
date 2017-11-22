@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Menu desplegable</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+</head>
+<body>
+
+<header>
+	<ul>
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">Quienes somos <span class="fa fa-angle-down"></span></a>
+	    <ul>
+			<li><a href="#">Sobre Nosotros</a></li>
+			<li><a href="#">Mision y vision</a></li>
+		</ul>
+		</li>		
+		<li><a href="#">Miembros <span class="fa fa-angle-down"></span></a>
+		<ul>
+			<li><a href="#">Directorio</a></li>
+			<li><a href="#">Historia</a></li>
+		</ul>
+		</li>
+		<li><a href="#">Noticias</a></li>
+		<li><a href="#">Publicaciones</a></li>
+		<li><a href="#">Convenios</a></li>
+		<li><a href="#">Contacto</a></li>
+	</ul>
+</header>
+
+<div id="banner">
+<img src="illimani.jpg" width="1330px" height="310px"> 
+</div>
+
+<div id="body">
+
+		<div id="izquierda">
+		<center><h1>Noticias</h1><br></center>
+		<p>Noticias 1</p><br>
+		<p>Noticias 2</p><br>
+		<p>Noticias n</p>
+		</div>				
+				
+		<div id="derecha">
+		<center><h1>Actividades</h1><br></center>
+		<p>Actividad 1</p><br>
+		<p>Actividad 2</p><br>
+		<p>Actividad n</p>
+		</div>
+</div>	
+
+</body>
+</html>
